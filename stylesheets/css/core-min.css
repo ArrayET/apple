@@ -14,4 +14,11 @@
       align-items: center;
       height: 100%;
       width: 95px;
-      color: #FFF; }
+      color: #FFF;
+      cursor: pointer;
+      transition: .15s; }
+      #navBar #navBarContent div:hover {
+        color: #959595;
+        transition: .15s; }
+      #navBar #navBarContent div span {
+        user-select: none; }
